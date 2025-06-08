@@ -5,6 +5,7 @@ public class TestStudent {
         System.out.println( myStu.getName());
         System.out.println(myStu.getAge());
         System.out.println(myStu.getAge()); myStu2.getAge();
-        myStu2.getName();
+        System.out.println(  myStu2.getName());
+
     }
 }
