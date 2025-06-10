@@ -1,3 +1,4 @@
+import java.io.IOException;
 import java.util.Scanner;
 
 public class numberOperation {
@@ -83,9 +84,27 @@ public class numberOperation {
 //            }
 //        }
 
+        //using switch operator
+
+//        System.out.print("Enter the name of any fruit :");
+//        String fruit =inp.next();
+//        switch(fruit){
+//            case "Mango":
+//                System.out.println("king of friuts");
+//                break;
+//            case "apple":
+//                System.out.println("a red round fruit");
+//                break;
+//
+//
+//            }
+
+
+        }
+
 
     }
-}
+
 
 
 
