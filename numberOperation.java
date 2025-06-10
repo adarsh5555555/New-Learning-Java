@@ -99,6 +99,81 @@ public class numberOperation {
 //
 //            }
 
+        // SWAP ELEMENTS
+
+
+//
+//        }
+//        static void swap(int a,int b){
+//        int c=b;
+//        b=a;
+//        a=c;
+//            return; a,b;
+//        String name = "kunal";
+//        char first = ret(name);
+//        System.out.println(first);
+//        }
+//        static char ret(String naam){
+//       return naam.trim().charAt(0);
+
+
+        //PRIME NUMBER CHECKER
+
+//
+//        System.out.print("Enter the number that you wanna check :");
+//        int number = inp.nextInt();
+//       boolean isPrime = isPrime(number);
+//       if(isPrime){
+//           System.out.printf("yess the number %d is a prime number",number);
+//       }else{
+//           System.out.printf("noo the number %d is not a prime number",number);
+//       }
+//
+//        }
+//        static boolean isPrime(int num){
+//        int number =2;
+//        while(number<=num/2){
+//            int result = num%number;
+//            if(result!=0){
+//                number ++;
+//            }else{
+//                return false;
+//            }
+//        }
+//        return true;
+
+
+ //      :: ARMSTRONG NUMBER CHECKER::
+        System.out.print("Enter the number that you wanna check :");
+        int number  = inp.nextInt();
+        boolean isArmstrong = isArmstrong(number);
+        if(isArmstrong){
+            System.out.printf("Yess the number %d is an armstrong number",number);
+        }else{
+            System.out.printf("Noo the number %d is not an armstrong number",number);
+        }
+        //printing all armstrong numbers betwween specified range lets assume it to be b/w 100 to 1000
+        // or all three digits armstrong numbers
+        System.out.println("\n");
+        for(int i=100;i<1000;i++){
+            if(isArmstrong(i)){
+
+                System.out.print(i+" ");
+            }
+        }
+
+
+        }
+        static boolean isArmstrong(int num){
+        int numcopy = num;
+        int result =0;
+        while(num>0){
+            double digit = num%10;
+            digit = Math.pow(digit,3);
+            result += digit;
+            num /= 10;
+        }
+        return result==numcopy;
 
         }
 
