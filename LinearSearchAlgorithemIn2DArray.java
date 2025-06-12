@@ -8,7 +8,7 @@ public class LinearSearchAlgorithemIn2DArray {
 //                {8,9,10,11,12},
 //                {13,14,15,16,17}
 //        };
-//        boolean isPresent = search2(arr,11);
+//        boolean isPresent = search2(arr,0);
 //       if(isPresent){
 //           System.out.println("yess the elemnt is present in the Array");
 //       }else{
@@ -35,6 +35,16 @@ public class LinearSearchAlgorithemIn2DArray {
 //        for(int[]  arr : myInt){
 //            for (int i = 0; i < arr.length; i++) {
 //                if(arr[i]==targetElemment){
+//                    return true;
+//                }
+//            }
+//        }
+//        return false;
+//    }
+//    static boolean search2(int[][] myInt,int targetElemment){
+//        for(int[]  arr : myInt){
+//            for (int i:arr) {
+//                if(i==targetElemment){
 //                    return true;
 //                }
 //            }
