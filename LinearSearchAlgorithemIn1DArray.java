@@ -1,4 +1,6 @@
-public class OperationOnArrays {
+import java.util.Arrays;
+
+public class LinearSearchAlgorithemIn1DArray {
     public static void main(String[] args) {
 //        // :::FINDING MAXIMUM NUMBER PRESENT IN ARRAY:::
 //        int [] myArray = {1,2,3,4,5};
@@ -30,6 +32,22 @@ public class OperationOnArrays {
 //        int[] myInt = {1,2,3,4,5,6};
 //        System.out.println(linearSearh(myInt,5));;
 
+        /*
+        :::: SEARCHING IN STRING ::::
+        coz string can be considered as array of characters
+        so iterating upon string for specefic chacter and return either
+        boolean value if it exists in string or not or returning
+        index of the char or return that perticular char itself
+        that does it exists in string or not
+        :::linearly searching in string
+
+         */
+//        String ss = "Darsh";
+//       System.out.println( stringSearch(ss,'a'));
+
+//        System.out.println(Arrays.toString(ss.toCharArray()));
+
+
 
 
     }
@@ -54,5 +72,35 @@ public class OperationOnArrays {
 //        }
 //        return -1;
 //    }
+
+ //   ::::THIS METHOD IS SPECIFICALLY DESIGNED FOR LINEAR SEARCH IN STRING::::
+    /*
+    if that char is present int the string this method retiurns the index of that
+    char in the String
+     */
+
+//    static int stringSearch(String str,char toSearch){
+//        for(int i=0;i<str.length();i++){
+//            char isThere = str.trim().charAt(i);
+//            if(isThere==toSearch){
+//                return i;
+//            }
+//        }
+//        return -1;
+//    }
+    //char to array means converting string into array of its characters
+
+//    static boolean SearchString(String str , char charToSearch){
+//        for (char c :str.toCharArray()) {
+//            if(c==charToSearch){
+//                return true;
+//            }
+//
+//        }
+//        return false;
+//    }
+
+
+
 
 }
